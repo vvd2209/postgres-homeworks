@@ -13,7 +13,7 @@ def csv_to_postgres(csv_data_path, csv_file, table_name):
                 host="localhost",
                 database="north",
                 user="postgres",
-                password="2209vvd!"
+                password="0000"
         ) as conn:
             with conn.cursor() as cur:
 
